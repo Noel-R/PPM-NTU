@@ -1,20 +1,26 @@
 # PPM-NTU
 Personal Project Management Group Coursework
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**Project Details**
-
-Project Name: **N/A**
-
-Project Description: **N/A**
-
-Organisation: **N/A**
-
-Organisation's Brief: **N/A**
-
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-This repository was set up for the coursework required for the PPM course, the following members are contributors (Group **Administrator/Secretary** represented in bold.);
+## Project Details**
+
+### Project Name:
+N/A
+
+### Project Description:
+N/A
+
+### Organisation:
+N/A
+
+### Organisation's Brief:
+N/A
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### This repository was set up for the coursework required for the PPM course, the following members are contributors (Group **Administrator/Secretary** represented in bold.);
 
 Noel Rottenbiller [N0931129]
 
