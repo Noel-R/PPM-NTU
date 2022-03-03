@@ -135,8 +135,7 @@ html {
     display: flex;
     flex-flow: column wrap;
     min-height: 1000px;
-    position: inherit;
-
+    margin-top: 62px;
 
     background:
         linear-gradient(
@@ -146,6 +145,55 @@ html {
     background-size: cover;
 
 }
+
+.SectionOne {
+    opacity: 90%;
+}
+
+.SectionOne > h3 {
+    font-family: monospace;
+    font-size: 5em;
+    text-align: left;
+    margin-left: 20%;
+    margin-bottom: 0%;
+    margin-top: 10em;
+    color: #bfbfbf;
+}
+
+.SectionOne > h4 {
+    font-family: monospace;
+    font-size: 6em;
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 0%;
+    color: #f4eb49;
+}
+
+.SectionOne > h4 > strong {
+    color: #f8ee36;
+}
+
+.SectionTwo {
+    background-color: #f3f3f3;
+    font-family: monospace;
+}
+
+.SectionTwo > h4 {
+    color: #2e2e2e;
+    font-size: 6em;
+    text-align: center;
+    margin-top: 0.2em;
+    margin-bottom: 0.1em;
+}
+
+.SectionTwo > p {
+    color: #111111;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0.3em;
+}
+
 
 /* <-- End of Index/Main Pages Body --> */
 /* <-- Start of About Pages Body --> */
