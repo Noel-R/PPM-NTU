@@ -136,18 +136,15 @@ html {
     flex-flow: column wrap;
     min-height: 1000px;
     margin-top: 62px;
+}
 
+.SectionOne {
     background:
         linear-gradient(
           rgba(7, 7, 7, 0.7), 
           rgba(7, 7, 7, 0.7)
         ), url(../Assets/FirstBG.jpg);
     background-size: cover;
-
-}
-
-.SectionOne {
-    opacity: 90%;
 }
 
 .SectionOne > h3 {
@@ -176,6 +173,7 @@ html {
 .SectionTwo {
     background-color: #f3f3f3;
     font-family: monospace;
+    padding-bottom: 2em;
 }
 
 .SectionTwo > h4 {
@@ -194,6 +192,9 @@ html {
     margin-bottom: 0.3em;
 }
 
+.SOIDIV_StepOutStayOut {
+    margin-bottom: 1em;
+}
 
 /* <-- End of Index/Main Pages Body --> */
 /* <-- Start of About Pages Body --> */
