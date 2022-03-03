@@ -1,0 +1,170 @@
+body {
+    background-color: #111111;
+    margin: 0px;
+    z-index: -1;
+}
+
+.Header {
+    width: 100%;
+    background: #ffe200;
+
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+}
+
+.Header > a > img {
+    width: 136px;
+    height: 38px;
+    padding: 10px 0px 10px 25px;
+}
+
+.Navigation {
+    justify-content: space-between;
+    z-index: 3;
+}
+
+.Navigation > ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.Navigation > ul > li {
+    color:#010101;
+    font: menu;
+    font-size: large;
+    padding: 0px;
+    margin: 0px 25px 0px 0px;
+    word-wrap: break-word;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 0.3s;
+}
+
+.Navigation > ul > li:hover {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    transition: 0.3s;
+}
+
+.Navigation > ul > li > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.Footer {
+    width: 100%;
+    display: flex;
+    height: auto;
+
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+
+    background-color: #111111;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+}
+
+.Footer > a > .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 181px;
+}
+
+.Footer > p {
+    text-align: center;
+    font-family: monospace;
+    color: #bfbfbf;
+}
+
+.Footer > ul {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 50%;
+    margin-right: 50%   ;
+    text-align: center;
+}
+
+
+.Footer > ul > li > img {
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    transition: 0.3s;
+}
+
+.Footer > ul > li > img:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.MainBody {
+    display: flex;
+    flex-flow: column wrap;
+    min-height: 1000px;
+    position: inherit;
+
+    background:
+        linear-gradient(
+          rgba(7, 7, 7, 0.7), 
+          rgba(7, 7, 7, 0.7)
+        ), url(../Assets/FirstBG.jpg);
+    background-size: cover;
+
+}
+
+.AboutBody {
+    display: flex;
+    flex-flow: column wrap;
+    min-height: 1000px;
+    position: inherit;
+
+}
+
+.BlogBody {
+    display: flex;
+    flex-flow: column wrap;
+    min-height: 1000px;
+    position: inherit;
+
+}
+
+.ContactBody {
+    display: flex;
+    flex-flow: column wrap;
+    min-height: 1000px;
+    position: inherit;
+
+}
+
+.GalleryBody {
+    display: flex;
+    flex-flow: column wrap;
+    min-height: 1000px;
+    position: inherit;
+
+}
+
+.BookingBody {
+    display: flex;
+    flex-flow: column wrap;
+    min-height: 1000px;
+    position: inherit;
+
+}
+
