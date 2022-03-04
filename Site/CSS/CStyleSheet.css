@@ -25,6 +25,7 @@ html {
     top: 0;
     position: fixed;
     float: right;
+    z-index: 9999;
 }
 
 .Header > a > img {
@@ -84,6 +85,7 @@ html {
     padding: 10px;
     position: relative;
     bottom: 0;
+    z-index: -1;
 }
 
 .Footer > a > .logo {
@@ -196,6 +198,64 @@ html {
     margin-bottom: 1em;
 }
 
+.SectionThree {
+    background-color: #111111;
+    font-family: monospace;
+    padding-bottom: 2em;
+    color: #bfbfbf;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 0;
+}
+
+.SectionThree > h4 {
+    margin-top: 0.2em;
+    font-size: 6em;
+    text-align: center;
+    margin-bottom: 0.6em;
+}
+
+.BlogContainer {
+    margin-top: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    z-index: 0;
+}
+
+.Post {
+    width: 350px;
+    background-color: #2e2e2e;
+
+    border-radius: 25px;
+    text-align: center;
+
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    transition: 0.4s;
+}
+
+.Post > img {
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.Post > h1 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.Post:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.4s;
+}
 /* <-- End of Index/Main Pages Body --> */
 /* <-- Start of About Pages Body --> */
 
