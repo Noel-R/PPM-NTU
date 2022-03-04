@@ -246,18 +246,20 @@ html {
 }
 
 .container {
-  padding: 75px 0;
-  margin: 0 auto;
-  width: 1140px;
+    position: inherit;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
  
 .container > h1 {
-  position: relative;
-  margin-bottom: 45px;
-  font-family: 'monospace';
-  font-size: 44px;
-  text-transform: uppercase;
-  color: yellow;
+    text-align: center;
+    font-family: 'monospace';
+    font-size: 44px;
+    text-transform: uppercase;
+    color: yellow;
 }
 
 .gallerywrap{
@@ -265,21 +267,26 @@ html {
     flex-direction: row;
     width: 100%;
     height: 70vh;
+    justify-content: center;
 }
 
 
 .photo {
-    flex: 1;
-    height: 100px;
+    height: 200px;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-repeat: none;
-    transition: flex 0.8s ease;
-    width: 100%;
-    
-    &:hover{
-      flex: 7;
-    }
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    transition: 0.4s;
+    width: 200px;
+    z-index: 1;
+  }
+
+  .photo:hover {
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+      transition: 0.4s;
   }
 
 .photo1{
