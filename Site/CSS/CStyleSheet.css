@@ -246,6 +246,10 @@ html {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 75px 0;
     margin: 0 auto;
     width: 100%;
@@ -278,8 +282,6 @@ html {
     background-repeat: none;
     transition: flex 0.8s ease;
 
-   
-    
   }
 
   .photo:hover {
