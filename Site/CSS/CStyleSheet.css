@@ -245,6 +245,61 @@ html {
 
 }
 
+.container {
+  padding: 75px 0;
+  margin: 0 auto;
+  width: 1140px;
+}
+ 
+.container > h1 {
+  position: relative;
+  margin-bottom: 45px;
+  font-family: 'monospace';
+  font-size: 44px;
+  text-transform: uppercase;
+  color: yellow;
+}
+
+.gallerywrap{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+}
+
+
+.photo {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+    width: 100%;
+    z-index: -1;
+    
+    &:hover{
+      flex: 7;
+    }
+  }
+
+.photo1{
+    background-image: url('https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1234&q=80')
+}
+
+.photo2{
+    background-image: url('https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1234&q=80')
+}
+
+.photo3{
+    background-image: url('https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1234&q=80')
+}
+
+.photo4{
+    background-image: url('https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1234&q=80')
+}
+
+
 /* <-- End of Gallery Pages Body --> */
 /* <-- Start of Booking Pages Body --> */
 
