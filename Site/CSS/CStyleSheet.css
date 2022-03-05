@@ -343,22 +343,21 @@ html {
     flex-direction: row;
     width: 100%;
     height: 70vh;
-    
 }
 
 .photo {
-    flex: 1;
+    flex: 2;
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-repeat: none;
+    background-repeat: no-repeat;
     transition: flex 0.8s ease;
-
   }
 
-  .photo:hover {
-        flex: 7;
-  }
+.photo:hover {
+    flex: 5;
+    transition: flex 0.8s ease;
+}
 
 .photo1{
     background-image: url('http://www.stepoutstayout.uk/assets/img/main/soso-15.jpg')
