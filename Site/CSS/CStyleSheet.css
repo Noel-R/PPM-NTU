@@ -49,7 +49,7 @@ html {
 .Navigation > ul > li {
     color:#010101;
     font: menu;
-    font-size: large;
+    font-size: 1.5em;
     padding: 0px;
     margin: 0px 25px 0px 0px;
     word-wrap: break-word;
@@ -82,7 +82,7 @@ html {
     align-content: center;
 
     background-color: #111111;
-    padding: 10px;
+    padding: 10px 0px 0px 0px;
     position: relative;
     bottom: 0;
     z-index: -1;
@@ -108,7 +108,7 @@ html {
     flex-direction: row;
     list-style: none;
     margin-left: 50%;
-    margin-right: 50%   ;
+    margin-right: 0;
     text-align: center;
 }
 
@@ -238,6 +238,7 @@ html {
     transform: scale(0.9);
     transition: 0.4s;
     box-shadow: 15px 15px 15px #1b1c1b;
+    margin-right: 0;
 }
 
 .Post > img {
