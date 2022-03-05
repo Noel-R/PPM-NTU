@@ -58,6 +58,14 @@ html {
     transition: 0.3s;
 }
 
+.login {
+    background-color: transparent;
+    border: 0;
+    font-size: 1em;0
+    font-display: menu;
+    color: #010101;
+}
+
 .Navigation > ul > li:hover {
     -webkit-transform: scale(1.0);
     transform: scale(1.0);
