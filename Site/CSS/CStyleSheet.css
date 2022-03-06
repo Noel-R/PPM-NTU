@@ -363,19 +363,19 @@ html {
 }
 
 .photo1{
-    background-image: url('http://www.stepoutstayout.uk/assets/img/main/soso-15.jpg')
+    background-image: url(".assets\StepOutStayOutPic1.jpg")
 }
 
 .photo2{
-    background-image: url('http://www.stepoutstayout.uk/assets/img/main/soso-3.jpg')
+    background-image: url("Site\Assets\StepOutStayOutPic2.jpg")
 }
 
 .photo3{
-    background-image: url('http://www.stepoutstayout.uk/assets/img/main/soso-1.jpg')
+    background-image: url("Site\Assets\StepOutStayOutPic3.jpg")
 }
 
 .photo4{
-    background-image: url('http://www.stepoutstayout.uk/assets/img/main/soso-2.jpg')
+    background-image: url("Site\Assets\StepOutStayOutPic4.jpg")
 }
 
 
