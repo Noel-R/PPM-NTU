@@ -363,19 +363,19 @@ html {
 }
 
 .photo1{
-    background-image: url(".assets\StepOutStayOutPic1.jpg")
+    background-image: url("../Assets/StepOutStayOutPic1.jpg")
 }
 
 .photo2{
-    background-image: url("Site\Assets\StepOutStayOutPic2.jpg")
+    background-image: url("../Assets/StepOutStayOutPic2.jpg")
 }
 
 .photo3{
-    background-image: url("Site\Assets\StepOutStayOutPic3.jpg")
+    background-image: url("../Assets/StepOutStayOutPic3.jpg")
 }
 
 .photo4{
-    background-image: url("Site\Assets\StepOutStayOutPic4.jpg")
+    background-image: url("../Assets/StepOutStayOutPic4.jpg")
 }
 
 
