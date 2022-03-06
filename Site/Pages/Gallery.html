@@ -1,7 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="../CSS/CStyleSheet.css">  
+        <link rel="stylesheet" href="CSS/CStyleSheet.css">
+        <script>
+            function login() {
+                var username = prompt("Username")
+                var password = prompt("Password")
+                if (username == "admin") {
+                    if (password == "admin") {
+                        document.location.href = "Pages/Gallery.html"
+                    }
+                }
+            }
+        </script>
     </head>
 
     <body>
@@ -15,6 +26,7 @@
                     <li><a href="/Pages/Gallery.html">GALLERY</a></li>
                     <li><a href="/Pages/Blog.html">BLOG</a></li>
                     <li><a href="/Pages/Contact.html">CONTACT</a></li>
+                    <li><button class="login" onclick="login()">LOGIN</button></li>
                 </ul>
             </div>
         </div>
