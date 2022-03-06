@@ -61,8 +61,8 @@ html {
 .login {
     background-color: transparent;
     border: 0;
-    font-size: 1em;0
-    font-display: menu;
+    font: menu;
+    font-size: 1em;
     color: #010101;
 }
 
@@ -146,6 +146,7 @@ html {
     flex-flow: column wrap;
     min-height: 1000px;
     margin-top: 62px;
+    max-width: 100%;
 }
 
 .SectionOne {
@@ -163,16 +164,16 @@ html {
     text-align: left;
     margin-left: 20%;
     margin-bottom: 0%;
-    margin-top: 10em;
+    margin-top: 5em;
     color: #bfbfbf;
 }
 
 .SectionOne > h4 {
     font-family: monospace;
-    font-size: 6em;
+    font-size: 4em;
     text-align: left;
     margin-left: 20%;
-    margin-top: 0%;
+    margin-top: 0;
     color: #f4eb49;
 }
 
